@@ -33,7 +33,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gec
 
 
 acura=['ilx', 'mdx', 'nsx', 'rdx', 'rlx', 'tlx', 'cl', 'ilx-hybrid', 'integra', 'legend', 'rl', 'rsx', 'slx', 'tl', 'tsx', 'tsx-sport-wagon', 'vigor', 'zdx']
-aston-martin=['db11', 'dbs-superleggera', 'dbx', 'rapide-amr', 'vantage', 'db7', 'db9', 'db9-gt', 'dbs', 'rapide', 'rapide-s', 'v12-vanquish', 'v12-vantage', 'v12-vantage-s', 'v8-vantage', 'vanquish', 'vanquish-s', 'virage']
+aston=['db11', 'dbs-superleggera', 'dbx', 'rapide-amr', 'vantage', 'db7', 'db9', 'db9-gt', 'dbs', 'rapide', 'rapide-s', 'v12-vanquish', 'v12-vantage', 'v12-vantage-s', 'v8-vantage', 'vanquish', 'vanquish-s', 'virage']
 audi=['a3', 'a4', 'a4-allroad', 'a5', 'a6', 'a6-allroad', 'a7', 'a8', 'e-tron', 'e-tron-sportback', 'q3', 'q5', 'q7', 'q8', 'r8', 'rs-3', 'rs-5', 's3', 's4', 's5', 's6', 's7', 's8', 'sq5', 'sq7', 'sq8', 'tt', 'tt-rs', 'tts', '100', '200', '80', '90', 'a3-sportback-e-tron', 'allroad', 'allroad-quattro', 'cabriolet', 'coupe', 'rs-4', 'rs-6', 'rs-7', 'v8']
 bentley=['bentayga', 'continental', 'flying-spur', 'mulsanne', 'arnage', 'azure', 'azure-t', 'brooklands', 'continental-flying-spur', 'continental-flying-spur-speed', 'continental-gt', 'continental-gt-speed', 'continental-gt-speed-convertible', 'continental-gt3-r', 'continental-gtc', 'continental-gtc-speed', 'continental-supersports', 'continental-supersports-convertible', 'supersports-convertible-isr']
 bmw=['2-series', '2-series-gran-coupe', '3-series', '3-series-gran-turismo', '4-series', '4-series-gran-coupe', '5-series', '6-series-gran-coupe', '6-series-gran-turismo', '7-series', '8-series', '8-series-gran-coupe', 'alpina-b6-gran-coupe', 'alpina-b7', 'i3', 'i8', 'm2', 'm4', 'm4-cs', 'm5', 'm6-gran-coupe', 'm8', 'm8-gran-coupe', 'x1', 'x2', 'x3', 'x3-m', 'x4', 'x4-m', 'x5', 'x5-m', 'x6', 'x6-m', 'x7', 'z4', '1-series', '1-series-m', '3-series-edrive', '5-series-gran-turismo', '6-series', 'activehybrid-5', 'activehybrid-7', 'activehybrid-x6', 'alpina', 'm', 'm3', 'm3-cs', 'm4-gts', 'm6', 'x5-edrive', 'z3', 'z4-m', 'z8']
@@ -50,18 +50,18 @@ infiniti=['q50', 'q60', 'q70', 'qx30', 'qx50', 'qx60', 'qx80', 'ex', 'ex35', 'fx
 jaguar=['e-pace', 'f-pace', 'f-type', 'i-pace', 'xe', 'xf', 'xj', 's-type', 'x-type', 'xj-series', 'xjr', 'xk', 'xk-series', 'xkr']
 jeep=['cherokee', 'compass', 'gladiator', 'grand-cherokee', 'renegade', 'wrangler', 'comanche', 'commander', 'grand-cherokee-srt', 'grand-wagoneer', 'liberty', 'patriot', 'wagoneer', 'wrangler-jk']
 kia=['cadenza', 'forte', 'k900', 'niro', 'niro-ev', 'niro-plug-in-hybrid', 'optima', 'optima-hybrid', 'optima-plug-in-hybrid', 'rio', 'sedona', 'seltos', 'sorento', 'soul', 'soul-ev', 'sportage', 'stinger', 'telluride', 'amanti', 'borrego', 'rondo', 'sephia', 'spectra']
-land-rover=['defender', 'discovery', 'discovery-sport', 'range-rover', 'range-rover-evoque', 'range-rover-sport', 'range-rover-velar', 'discovery-series-ii', 'freelander', 'lr2', 'lr3', 'lr4']
+land=['defender', 'discovery', 'discovery-sport', 'range-rover', 'range-rover-evoque', 'range-rover-sport', 'range-rover-velar', 'discovery-series-ii', 'freelander', 'lr2', 'lr3', 'lr4']
 lexus=['es-250', 'es-300h', 'es-350', 'gs-300', 'gs-350', 'gs-450h', 'gs-f', 'gx-460', 'is-300', 'is-350', 'lc-500', 'lc-500h', 'ls-500', 'ls-500h', 'lx-570', 'nx-300', 'nx-300h', 'rc-300', 'rc-350', 'rc-f', 'rx-350', 'rx-350l', 'rx-450h', 'rx-450hl', 'ux-200', 'ux-250h', 'ct-200h', 'es-300', 'es-330', 'gs-200t', 'gs-400', 'gs-430', 'gs-460', 'gx-470', 'hs-250h', 'is-200t', 'is-250', 'is-250-c', 'is-350-c', 'is-f', 'lfa', 'ls-400', 'ls-430', 'ls-460', 'ls-600h-l', 'lx-450', 'lx-470', 'nx-200t', 'rc-200t', 'rx-300', 'rx-330', 'rx-400h', 'sc-300', 'sc-400', 'sc-430']
 lincoln=['aviator', 'continental', 'corsair', 'mkc', 'mkt', 'mkz', 'nautilus', 'navigator', 'blackwood', 'ls', 'mark-lt', 'mark-vii', 'mark-viii', 'mks', 'mkx', 'mkz-hybrid', 'navigator-l', 'town-car', 'zephyr']
 lotus=['evora-gt', 'elise', 'esprit', 'evora', 'evora-400', 'exige']
 maserati=['ghibli', 'granturismo-convertible', 'levante', 'quattroporte', 'coupe', 'gransport', 'granturismo', 'spyder']
 mazda=['3', '6', 'cx-3', 'cx-30', 'cx-5', 'cx-9', 'mx-5-miata', 'mx-5-miata-rf', '2', '323', '5', '626', '929', 'b-series', 'b-series-pickup', 'b-series-truck', 'cx-7', 'mazdaspeed-3', 'mazdaspeed-6', 'mazdaspeed-mx-5-miata', 'mazdaspeed-protege', 'millenia', 'mpv', 'mx-3', 'mx-6', 'navajo', 'protege', 'protege5', 'rx-7', 'rx-8', 'tribute', 'tribute-hybrid', 'truck']
-mercedes-benz=['a-class', 'amg-gt', 'c-class', 'cla-class', 'cls-class', 'e-class', 'g-class', 'gla-class', 'glb-class', 'glc-class', 'glc-class-coupe', 'gle-class', 'gle-class-coupe', 'gls-class', 'maybach', 'metris', 's-class', 'sl-class', 'slc-class', 'sprinter', 'sprinter-worker', '190-class', '300-class', '350-class', '400-class', '420-class', '500-class', '560-class', '600-class', 'b-class-electric-drive', 'c36-amg', 'c43-amg', 'cl-class', 'clk-class', 'e55-amg', 'gl-class', 'glk-class', 'm-class', 'ml55-amg', 'r-class', 'slk-class', 'slr-mclaren', 'sls-amg', 'sls-amg-gt', 'sls-amg-gt-final-edition']
+mercedes=['a-class', 'amg-gt', 'c-class', 'cla-class', 'cls-class', 'e-class', 'g-class', 'gla-class', 'glb-class', 'glc-class', 'glc-class-coupe', 'gle-class', 'gle-class-coupe', 'gls-class', 'maybach', 'metris', 's-class', 'sl-class', 'slc-class', 'sprinter', 'sprinter-worker', '190-class', '300-class', '350-class', '400-class', '420-class', '500-class', '560-class', '600-class', 'b-class-electric-drive', 'c36-amg', 'c43-amg', 'cl-class', 'clk-class', 'e55-amg', 'gl-class', 'glk-class', 'm-class', 'ml55-amg', 'r-class', 'slk-class', 'slr-mclaren', 'sls-amg', 'sls-amg-gt', 'sls-amg-gt-final-edition']
 mini=['clubman', 'convertible', 'countryman', 'hardtop-2-door', 'hardtop-4-door', 'cooper', 'cooper-clubman', 'cooper-countryman', 'cooper-coupe', 'cooper-paceman', 'cooper-roadster']
 mitsubishi=['eclipse-cross', 'mirage', 'mirage-g4', 'outlander', 'outlander-phev', 'outlander-sport', '3000gt', 'diamante', 'eclipse', 'eclipse-spyder', 'endeavor', 'expo', 'galant', 'i-miev', 'lancer', 'lancer-evolution', 'lancer-sportback', 'mighty-max-pickup', 'montero', 'montero-sport', 'precis', 'raider', 'sigma', 'vanwagon']
 nissan=['370z', 'altima', 'armada', 'frontier', 'gt-r', 'kicks', 'leaf', 'maxima', 'murano', 'nv-cargo', 'nv-passenger', 'nv200', 'pathfinder', 'rogue', 'rogue-sport', 'sentra', 'titan', 'titan-xd', 'versa', 'versa-note', '200sx', '240sx', '300zx', '350z', 'altima-hybrid', 'axxess', 'cube', 'juke', 'murano-crosscabriolet', 'nv', 'nx', 'pulsar', 'quest', 'rogue-select', 'stanza', 'truck', 'van', 'xterra']
 porsche=['718-boxster', '718-cayman', '911', 'cayenne', 'cayenne-coupe', 'macan', 'panamera', 'taycan', '918-spyder', '928', '944', '968', 'boxster', 'carrera-gt', 'cayman', 'cayman-s']
-subaru=['b9-tribeca', 'baja', 'impreza-wrx', 'justy', 'loyale', 'svx', 'tribeca', 'xt', 'xv-crosstrek'
+subaru=['b9-tribeca', 'baja', 'impreza-wrx', 'justy', 'loyale', 'svx', 'tribeca', 'xt', 'xv-crosstrek']
 suzuki=['aerio', 'equator', 'esteem', 'forenza', 'grand-vitara', 'kizashi', 'reno', 'samurai', 'sidekick', 'swift', 'sx4', 'verona', 'vitara', 'x-90', 'xl-7', 'xl7', 'select-model', 'aerio', 'equator', 'esteem', 'forenza', 'grand-vitara', 'kizashi', 'reno', 'samurai', 'sidekick', 'swift', 'sx4', 'verona', 'vitara', 'x-90', 'xl-7', 'xl7', 'select-model', 'aerio', 'equator', 'esteem', 'forenza', 'grand-vitara', 'kizashi', 'reno', 'samurai', 'sidekick', 'swift', 'sx4', 'verona', 'vitara', 'x-90', 'xl-7', 'xl7']
 tesla=['model-3', 'model-s', 'model-x', 'model-y', 'roadster']	
 toyota=['4runner', '86', 'avalon', 'avalon-hybrid', 'c-hr', 'camry', 'camry-hybrid', 'corolla', 'corolla-hatchback', 'corolla-hybrid', 'gr-supra', 'highlander', 'highlander-hybrid', 'land-cruiser', 'mirai', 'prius', 'prius-c', 'prius-prime', 'rav4', 'rav4-hybrid', 'rav4-prime', 'sequoia', 'sienna', 'tacoma', 'tundra', 'venza', 'yaris', 'yaris-hatchback', 'camry-solara', 'celica', 'corolla-im', 'cressida', 'echo', 'fj-cruiser', 'matrix', 'mr2', 'mr2-spyder', 'paseo', 'pickup', 'previa', 'prius-plug-in', 'prius-v', 'rav4-ev', 'supra', 't100', 'tercel', 'yaris-ia']
@@ -102,7 +102,14 @@ for comp in companies:
        rating=[]
        reviewer=[]
        date=[]
-       car_model=eval(comp)
+       if comp=="aston-martin":
+           car_model=aston
+       elif comp=="land-rover":
+           car_model=land
+       elif comp=="mercedes-benz":
+           car_model=mercedes
+       else:
+           car_model=eval(comp)
 
        for model in car_model:
         sum+=1
