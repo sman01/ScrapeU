@@ -91,6 +91,7 @@ driver = webdriver.Chrome()
 comps=[]
 sum=0
 ifi=0
+dateTimeObj = datetime.now()
 timestampStr_start = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)")
 for comp in companies:
        time.sleep(5)
@@ -220,6 +221,7 @@ for comp in companies:
              time.sleep(2)
              wr.writerows(export_data)
        myfile.close()
+       dateTimeObj = datetime.now()
        timestampStr_end = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)")
     
        print(len(models))
