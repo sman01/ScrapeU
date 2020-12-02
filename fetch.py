@@ -27,7 +27,7 @@ def err(url,no):
         return 3
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0'}
 
-
+reve=0
 
 #models and manufacturers
 
@@ -91,7 +91,7 @@ driver = webdriver.Chrome()
 comps=[]
 sum=0
 ifi=0
-
+timestampStr_start = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)")
 for comp in companies:
        time.sleep(5)
        models=[]
@@ -219,8 +219,9 @@ for comp in companies:
              wr.writerow(("Model", "Year","Reviewer","Date","Title","Rating","Review"))
              time.sleep(2)
              wr.writerows(export_data)
-       myfile.close()              
-
+       myfile.close()
+       timestampStr_end = dateTimeObj.strftime("%d-%b-%Y (%H:%M:%S.%f)")
+    
        print(len(models))
        print(len(years))
        print(len(reviewer))
@@ -228,8 +229,11 @@ for comp in companies:
        print(len(rating))
        print(len(review))
        print(len(heading))
+       reve+=len(review)
 
 driver.quit()
 print("done")
-
+print("Started at: ",timestampStr_start)
+print("Ended at: ",timestampStr_end)
+print("Total number of reviews scraped:", reve)
 
