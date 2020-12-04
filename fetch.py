@@ -72,8 +72,8 @@ volvo=['s60', 's60-cross-country', 's90', 'v60', 'v60-cross-country', 'v90', 'v9
 
 
 
-
-companies=[ 'acura', 'aston-martin', 'audi', 'bentley', 'bmw',  'buick',  'cadillac', 'chevrolet', 'chrysler',  'dodge', 'ferrari',  'ford',  'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover', 'lexus', 'lincoln', 'lotus',  'maserati',  'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo']
+#'acura', 'aston-martin', 'audi', 'bentley',
+companies=[  'bmw',  'buick',  'cadillac', 'chevrolet', 'chrysler',  'dodge', 'ferrari',  'ford',  'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover', 'lexus', 'lincoln', 'lotus',  'maserati',  'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo']
         
 
 
