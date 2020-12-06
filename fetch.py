@@ -49,7 +49,7 @@ hyundai=['accent', 'azera', 'elantra', 'elantra-gt', 'ioniq-electric', 'ioniq-hy
 infiniti=['q50', 'q60', 'q70', 'qx30', 'qx50', 'qx60', 'qx80', 'ex', 'ex35', 'fx', 'fx35', 'fx45', 'fx50', 'g-convertible', 'g-coupe', 'g-sedan', 'g20', 'g35', 'g37', 'g37-convertible', 'g37-coupe', 'g37-sedan', 'i30', 'i35', 'j30', 'jx', 'm', 'm30', 'm35', 'm37', 'm45', 'm56', 'q40', 'q45', 'q60-convertible', 'q60-coupe', 'qx', 'qx4', 'qx56', 'qx70']
 jaguar=['e-pace', 'f-pace', 'f-type', 'i-pace', 'xe', 'xf', 'xj', 's-type', 'x-type', 'xj-series', 'xjr', 'xk', 'xk-series', 'xkr']
 jeep=['cherokee', 'compass', 'gladiator', 'grand-cherokee', 'renegade', 'wrangler', 'comanche', 'commander', 'grand-cherokee-srt', 'grand-wagoneer', 'liberty', 'patriot', 'wagoneer', 'wrangler-jk']
-kia=['cadenza', 'forte', 'k900', 'niro', 'niro-ev', 'niro-plug-in-hybrid', 'optima', 'optima-hybrid', 'optima-plug-in-hybrid', 'rio', 'sedona', 'seltos', 'sorento', 'soul', 'soul-ev', 'sportage', 'stinger', 'telluride', 'amanti', 'borrego', 'rondo', 'sephia', 'spectra']
+kia=['cadenza', 'forte', 'k900', 'niro', 'niro-ev', 'niro-plug-in-hybrid', 'optima', 'optima-hybrid', 'optima-plug-in-hybrid', 'rio', 'sedona', 'seltos', 'sorento', 'soul', 'soul-ev', 'sportage', 'stinger', 'telluride', 'amanti', 'borrego', 'rondo', 'sephia', 'spectra']      
 land=['defender', 'discovery', 'discovery-sport', 'range-rover', 'range-rover-evoque', 'range-rover-sport', 'range-rover-velar', 'discovery-series-ii', 'freelander', 'lr2', 'lr3', 'lr4']
 lexus=['es-250', 'es-300h', 'es-350', 'gs-300', 'gs-350', 'gs-450h', 'gs-f', 'gx-460', 'is-300', 'is-350', 'lc-500', 'lc-500h', 'ls-500', 'ls-500h', 'lx-570', 'nx-300', 'nx-300h', 'rc-300', 'rc-350', 'rc-f', 'rx-350', 'rx-350l', 'rx-450h', 'rx-450hl', 'ux-200', 'ux-250h', 'ct-200h', 'es-300', 'es-330', 'gs-200t', 'gs-400', 'gs-430', 'gs-460', 'gx-470', 'hs-250h', 'is-200t', 'is-250', 'is-250-c', 'is-350-c', 'is-f', 'lfa', 'ls-400', 'ls-430', 'ls-460', 'ls-600h-l', 'lx-450', 'lx-470', 'nx-200t', 'rc-200t', 'rx-300', 'rx-330', 'rx-400h', 'sc-300', 'sc-400', 'sc-430']
 lincoln=['aviator', 'continental', 'corsair', 'mkc', 'mkt', 'mkz', 'nautilus', 'navigator', 'blackwood', 'ls', 'mark-lt', 'mark-vii', 'mark-viii', 'mks', 'mkx', 'mkz-hybrid', 'navigator-l', 'town-car', 'zephyr']
@@ -72,8 +72,8 @@ volvo=['s60', 's60-cross-country', 's90', 'v60', 'v60-cross-country', 'v90', 'v9
 
 
 
-#'acura', 'aston-martin', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler',  'dodge', 'ferrari',  'ford', 
-companies=[     'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover', 'lexus', 'lincoln', 'lotus',  'maserati',  'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo']
+#'acura', 'aston-martin', 'audi', 'bentley','bmw', 'buick', 'cadillac', 'chevrolet', 'chrysler',  'dodge', 'ferrari',  'ford', 'honda',  'hyundai', 'infiniti', 'jaguar', 'jeep', 'kia',  'land-rover', 
+companies=[      'lexus', 'lincoln', 'lotus',  'maserati',  'mazda',  'mercedes-benz',  'mini', 'mitsubishi', 'nissan',  'porsche', 'subaru', 'suzuki', 'tesla', 'toyota', 'volkswagen', 'volvo']
         
 
 
