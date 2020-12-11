@@ -24,7 +24,7 @@ date=[]
 url= "https://www.edmunds.com/car-reviews"
 driver.get(url)
 time.sleep(5)
-"""
+
 for i in range (1,70):
        revdate=driver.find_elements_by_xpath('/html/body/div[1]/div/main/div[2]/div[2]/form/div[2]/select/option['+str(i)+']')
        for rev in revdate:
@@ -46,3 +46,4 @@ for j in range (3):
 print(date)
 print(len(date))
 driver.quit()
+"""
